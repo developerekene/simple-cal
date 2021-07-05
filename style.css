@@ -1,0 +1,111 @@
+.wrapper{
+	position: absolute; 
+	top: 50%; 
+	left: 50%; 
+	transform: translate(-50%, -50%); 
+	background-color: white; 
+	width: 60%; 
+	height: 80%;
+}
+
+.calc{
+	height: 500px;
+	width: 320px;
+	background-color: white;
+	margin: 0 auto;
+	height: 100%;
+	border: 5px solid white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.mirror{
+	width: 100%;
+	height: 150px;
+	border-bottom: 5px solid white;
+}
+
+.mirror input{
+	width: 100%;
+	height:149px;
+	font-size: 52px;
+	text-align: right;
+	color: green;
+    padding: 0 15px 0 0;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+.button-section{
+	width: 100%;
+	height: 370px;
+	background-color: #FFF;
+}
+
+.btn-container{
+	width: 100%;
+	height: 72px;
+	background-color: white;
+	margin-top: 2px;
+}
+
+.btton{
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+    text-align: center
+}
+
+.btn-first{
+    background-color: Black;
+    color: white;
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-right: 12px;
+    margin-top: 6px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-first:hover{
+    color: red;
+    cursor: pointer;
+    width: 59.5px;
+    height: 59.5px;
+    transition: 0.6s;
+}
+
+.diff{
+    background-color: red;
+    color: #000;
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-right: 12px;
+    margin-top: 6px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.diff:hover{
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
